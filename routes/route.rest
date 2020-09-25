@@ -1,0 +1,21 @@
+GET http://localhost:3000/subscribers
+
+###
+
+Get http://localhost:3000/subscribers/5
+
+###
+
+POST http://localhost:3000/subscribers Content-Type: application/json
+
+{
+"name": "Namit", "subscribedToChannel": "Mumbiker Nikhil"
+}
+
+### DELETE http://localhost:3000/subscribers/5d3e0db7cb4be0bfc4c25ff9
+
+PATCH http://localhost:3000/subscribers/7 Content-Type: application/json
+
+{
+"name": "Rocky"
+}
